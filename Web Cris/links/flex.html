@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Logopedia Flex</title>
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/flex.css" rel="stylesheet">
+    <link href="../styles/smallScreen.css" rel="stylesheet" media="screen and (max-width: 1400px)">
+    <link href="../styles/mobile.css" rel="stylesheet" media="screen and (max-width: 850px)">
+    <link href="../styles/print.css" rel="stylesheet" media="print">
+</head>
+<body>
+    <div id="GelatinaJello">
+        <header>
+            <a href="../index/index.html" title="Inicio"><img id="logo" src="../images/logotipoLogopedaMini.png" alt="logotipo"></a>
+            <img id="image" src="../images/crisMini.png" alt="trabajo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../links/float.html" title="Float">Float</a></li>
+                <li><a href="../links/absolute.html" title="Absolute">Absolute</a></li>
+                <li><a href="../links/table.html" title="Table">Display Table</a></li>
+                <li><a href="../links/flex.html" title="Flex">Display Flex</a></li>
+                <li><a href="../links/grid.html" title="Grid">Display Grid</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Calendario Laboral</h1>
+            <div id="allBoxes">
+                <table>
+                    <caption>
+                        Enero
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>
+                        Febrero
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>
+                        Marzo
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>
+                        Abril
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>
+                        Mayo
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>
+                        Junio
+                    </caption>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td>09:00 - 10-00</td>
+                        <td colspan="2" rowspan="3">Asesoria Lactancia</td>
+                        <td rowspan="3">Sesión grupal</td>
+                        <td rowspan="3">Coordinación</td>
+                        <td rowspan="3">Sesión online</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td colspan="7" rowspan="3">Descanso</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td></td>
+                        <td rowspan="5">Consultas online</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00 - 18:00</td>
+                        <td rowspan="3">Talleres padres</td>
+                        <td></td>
+                        <td colspan="2" rowspan="3">Grupo habilidades sociales</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <h2 id="anclaFlex"> Coger cita <a target="_self" href="../links/date.html#anclaDate" title="coger cita">aquí</a></h2>
+        </section>
+        <footer>
+            &copy; Francisco Rodríguez, 1º DAM Semipresencial<br>
+            All trademarks and registered trademarks appearing on this site are the property of their respective owners.
+        </footer>
+    </div>
+</body>
+</html>

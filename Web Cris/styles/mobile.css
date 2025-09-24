@@ -1,0 +1,87 @@
+#GelatinaJello {
+  width: 100%;
+}
+
+header {
+  height: 180px;
+}
+
+#logo {
+  width: 150px;
+  margin: 2% 10%; 
+}
+
+#image {
+  display: none;
+}
+
+nav {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  width: 150px;
+}
+
+nav li {
+  display: block;
+  margin: 2% 1%;
+  border: black 1px solid;
+  padding: 1% 1%;
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  transition: 1s;
+}
+
+h1 {
+  padding: 20px 0px 0px 30px;
+  text-align: left;
+}
+
+pre {
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+#bajoLema {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: #03989e;
+  height: 70px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#elementOne {
+  position: absolute;
+  top: 300px;
+}
+
+#elementTwo {
+  position: absolute;
+  top: 450px;
+}
+
+#elementThree {
+  position: absolute;
+  top: 850px;
+}
+
+#pie {
+  position: absolute;
+  top: 1450px;
+}

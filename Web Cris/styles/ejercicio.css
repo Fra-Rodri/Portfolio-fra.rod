@@ -1,0 +1,61 @@
+table {
+  margin: 100px;
+  border-spacing: 15px;
+}
+
+table, tr, th, td{
+  border: solid black 1px;
+}
+
+#css3 {
+  width: 100px;
+}
+
+thead {
+  background-color: rgba(255, 255, 0, 0.5);
+  font-size: 3rem;
+}
+
+.listStyle {
+  list-style-type: none;
+  list-style-image: url(../images/logotipoLogopedaMini.png);
+  padding-top: 5px;
+  margin-left: 200px;
+}
+
+ul .background {
+  background-image: url(../images/logotipoLogopedaMini.png);
+  background-position: 0 0;
+  background-size: 2rem 2rem;
+  background-repeat: repeat;
+}
+
+#ol1 {
+  list-style-type: upper-alpha;
+}
+
+#ol2 {
+  list-style-type: lower-alpha;
+}
+
+#ol3 {
+  list-style-type: upper-roman;
+}
+
+#ul1 {
+  list-style-type: none;
+}
+
+#ul2 {
+  list-style-type: circle;
+}
+
+#ul3 {
+  list-style-type: square;
+}
+
+tfoot {
+  color: maroon;
+  background-color: rgba(255, 255, 0, 0.5);
+  font-size: 3rem;
+}

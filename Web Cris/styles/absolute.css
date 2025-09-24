@@ -1,0 +1,25 @@
+figcaption {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#elementOne {
+    position: absolute;
+    top: 470px;
+}
+
+#elementTwo {
+    position: absolute;
+    top: 620px;
+}
+
+#elementThree {
+    position: absolute;
+    top: 1050px;
+}
+
+footer {
+    position: absolute;
+    top: 1650px;
+    width: 85%;
+}

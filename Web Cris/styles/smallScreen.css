@@ -1,0 +1,25 @@
+header {
+  height: 180px;
+}
+
+#logo {
+  width: 200px;
+}
+
+#image {
+  width: 250px
+}
+
+#nombre {
+  text-align: center;
+}
+
+pre {
+  float: none;
+  text-align: center;
+}
+
+#miLema {
+  float: none;
+  margin-left: 35%;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+@font-face {
+	font-family: Lobster;
+	src: url(../sources/Lobster/Lobster-Regular.ttf);
+}
+
+html {
+    font-size: medium;
+}
+
+#GelatinaJello {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #03989e;
+    height: 220px;
+}
+
+#logo {
+    float: left;
+    margin: 0% 5%; 
+}
+
+#image {
+    float: right;
+    border-radius: 10em;
+    margin: 0% 5%; 
+    width: 300px
+}
+
+nav {
+    float: left;
+    width: 550px;
+    margin: 0% 30% 100px;
+}
+
+nav li {
+    display: inline;
+    margin: 2% 1%;
+    border: black 1px solid;
+    padding: 1% 1%;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+nav a:hover {
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    transition: 1s;
+}
+
+h1 {
+    clear: both;
+    text-align: left;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #03989e;
+    height: 70px;
+    text-align: center;
+    padding-top: 50px;
+    clear: both;
+}

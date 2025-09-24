@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Logopedia Formulario</title>
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/flex.css" rel="stylesheet">
+    <link href="../styles/smallScreen.css" rel="stylesheet" media="screen and (max-width: 1400px)">
+    <link href="../styles/mobile.css" rel="stylesheet" media="screen and (max-width: 850px)">
+    <link href="../styles/print.css" rel="stylesheet" media="print">
+</head>
+<body>
+    <div id="GelatinaJello">
+        <header>
+            <a href="../index/index.html" title="Inicio"><img id="logo" src="../images/logotipoLogopedaMini.png" alt="logotipo"></a>
+            <img id="image" src="../images/crisMini.png" alt="trabajo">
+            <link href="../styles/mobile.css" rel="stylesheet" media="screen and (max-width: 1200px)">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../links/float.html" title="Float">Float</a></li>
+                <li><a href="../links/absolute.html" title="Absolute">Absolute</a></li>
+                <li><a href="../links/table.html" title="Table">Display Table</a></li>
+                <li><a href="../links/flex.html" title="Flex">Display Flex</a></li>
+                <li><a href="../links/grid.html" title="Grid">Display Grid</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Rellenar datos</h1>
+            <p id="anclaDate">
+                <a href="../links/flex.html#anclaFlex" title="coger cita">volver</a>
+            </p>
+            <form target="_blank" action="enviado.html" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Identificate</legend>
+                    <p>
+                    <label>*Nombre: <input type="text" name="nom" maxlength="50" required></label>
+                    </p>
+                    <p>
+                        <label>Apellidos: <input type="text" name="ape" maxlength="100"></label>
+                    </p>
+                    <p>
+                        <label>E-mail: <input type="text" name="correo" maxlength="100" placeholder="corre electrónico"></label>
+                    </p>
+                    <p>
+                        <label>Contraseña: <input type="password" name="pass" maxlength="10" placeholder="máximo 10 caracteres"></label>
+                    </p>
+                    <p>
+                        <label>Sexo: </label>
+                        <label><input type="radio" name="sex" value="h">Hombre</label> 
+                        <label><input type="radio" name="sex" value="m">Mujer</label> 
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Motivo</legend>
+                    <p>
+                    <label for="fecha">Fecha: </label> <input id="fecha" type="date"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>*Razón: 
+                        <select name="opciones" required>
+                            <option value="">&nbsp;</option>
+                            <option value="lac">Lactancia</option>
+                            <option value="onl">Online</option>
+                            <option value="cons">Consultas</option>
+                            <option value="tall">Talleres</option>
+                        </select>
+                        </label>
+                    </p>
+                </fieldset>
+                <p>
+                    <label>
+                        <input type="checkbox" name="ofertas" checked>Deseo recibir información sobre novedades y ofertas
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="ofertas">Declaro haber leído las condiciones generales y la normativa de protección de datos
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" name="enviar" value="Enviar"> &nbsp;&nbsp;
+                    <input type="reset" name="reset" value="Borrar">
+                </p>
+            </form>
+        </section>
+        <footer>
+            &copy; Francisco Rodríguez, 1º DAM Semipresencial<br>
+            All trademarks and registered trademarks appearing on this site are the property of their respective owners.
+        </footer>
+    </div>
+</body>
+</html>

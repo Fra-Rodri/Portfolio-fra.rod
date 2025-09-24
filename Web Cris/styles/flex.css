@@ -1,0 +1,36 @@
+h2 {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+#allBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+table,th,td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    margin: 40px 0px 0px 40px;
+}
+
+caption {
+    font-size: 2em;
+}
+
+p:not(fieldset p, form p) {
+    text-align: center;
+    margin-top: 80px;
+}
+
+form {
+    margin-bottom: 10%;
+}
+
+fieldset {
+    margin: 5px;
+}

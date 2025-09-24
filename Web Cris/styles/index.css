@@ -1,0 +1,25 @@
+h1 {
+    text-shadow: 2px 2px 5px blue;
+    margin-left: 2%;
+}
+
+pre {
+    line-height: 2em;
+    float: right;
+}
+
+em {
+    color: blue;
+    font-size: 1.1rem;
+}
+
+
+figure {
+    float: left;
+}
+
+#bajoLema {
+    padding-top: 20px;
+    border-radius: 20em;
+    font-family: 'Just Another Hand', sans-serif ;
+}
